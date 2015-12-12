@@ -1,2 +1,2 @@
 # B-Tree
-B+Tree Implementation using Minibase
+B+Tree Implementation (DELETE) using Minibase
