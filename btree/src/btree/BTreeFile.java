@@ -1199,7 +1199,7 @@ public class BTreeFile extends IndexFile implements GlobalConst {
 		}
 
 	}
-
+// My implementation starts
 	/**
 	 * @param key
 	 * @param rid
@@ -1646,6 +1646,8 @@ public class BTreeFile extends IndexFile implements GlobalConst {
 		unpinPage(parentPageId, true);
 		freePage(mergeFrom.getCurPage()); // free the empty page
 	}
+
+	// My implementation ends
 
 	/**
 	 * create a scan with given keys Cases: (1) lo_key = null, hi_key = null
